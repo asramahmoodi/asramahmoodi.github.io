@@ -12,18 +12,24 @@
     <ul>
     <li>SELECT * FROM Customers;</li>
     <ul/>
-    <p>select only customers id and customer name fieldS (SELECT fields*)<p/>
+    <p>Select customer name, address, city, and PostalCode from all customers from United States of America (WHERE field= 'value')</p>
     <ul>
-    <li>SELECT CustomerID, CustomerName FROM Customers;</li>
+    <li>SELECT CustomerName, Address, and PostalCode FROM Customers </li>
+    <li>WHERE Country= 'USA';</li>
     <ul/>
-    <p>Select customer name, address, city, postal code for all customers from United States of America (WHERE field= 'value')</p>
+    <P>Count the total number of Products (COUNT(*))</P>
     <ul>
-    <li>SELECT CustomerName, Address, City, PostalCode FROM Customers</li>
-    <li>WHERE Country= 'USA'</li>
-    <li/>
-    <P>Count the total number of customers (COUNT(*))</P>
+    <li>SELECT COUNT(*)FROM Products; </li>
+    <ul/>
+    <p>Insert into customers(customer name, contact name, address, city, postal code, and country)</p>
+    </ul>
+    <li>INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)<li/>
+    <li>VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');</li>
+    <ul/>
+    <p>Update customers(set contact name-Juan)</p>
     <ul>
-    <li>COUNT * FROM Customers</li>
+    <li>UPDATE Customers<li/>
+    <li> SET ContactName='Juan';</li>
     </ul>
 
   </body>
